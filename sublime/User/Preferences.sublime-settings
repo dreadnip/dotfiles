@@ -1,0 +1,17 @@
+{
+	"always_show_minimap_viewport": false,
+	"color_scheme": "Packages/User/SublimeLinter/darkula (SL).tmTheme",
+	"font_face": "Consolas",
+	"font_size": 10,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"match_brackets": false,
+	"match_tags": false,
+	"overlay_scroll_bars": "enabled",
+	"save_on_focus_lost": true,
+	"theme": "amCoder.sublime-theme",
+	"word_wrap": "false",
+	"highlight_line": false
+}

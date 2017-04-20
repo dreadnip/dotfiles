@@ -1,0 +1,4 @@
+2016-09-22 17:14:23
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text 3/Packages/SFTP/sftp/sftp_transport.py", line 112, in connect_timeout
+AttributeError: 'SFTP' object has no attribute 'proc'
