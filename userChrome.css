@@ -1,0 +1,62 @@
+/* ==========
+   Global 
+========== */
+
+/* Make everything the same colour */
+#TabsToolbar, #tabbrowser-tabs, #nav-bar, #toolbar-menubar, #browser-panel, #urlbar, #urlbar-container {
+   background-color:#303030 !important;
+}
+
+/* Hide the back & previous buttons */
+#back-button { display: none !important; }
+#forward-button { display: none !important; }
+
+/* ==========
+  Navigation 
+========== */
+
+#nav-bar {
+   /*
+   To position the navbar on the same line as the tabs, we need to pull it up 
+   by assigning a negative margin of the same size as it's height.
+   */
+   margin-top:-32px !important;
+   height: 32px !important;
+   /*
+   To make the navbar small enough to sit on the left side of the tabs
+   we need to give it a large margin-right. This will shrink it.
+   */
+   margin-right: 75vw !important;
+}
+
+#urlbar {
+   border: none !important; /* Get rid of the URL bar border */
+   margin: 0 !important; /* And it's margin. This will make it a nice full-height */
+   margin-left: 32px !important; /* But, put enough margin to the left for the menu icon */
+}
+
+/* Position the menu icon the the left */
+#PanelUI-button {
+   position:absolute;
+   top:3px;
+   left:1px;
+}
+
+/* ==========
+    Tabs 
+========== */
+
+#TabsToolbar {
+   /*
+   Same thing as the nav-bar, except we only have to pull this one up by 2 pixels because it's already the topmost bar.
+   */
+   margin-top:-2px !important;
+   height: 32px !important;
+   /*
+   Make room for the navbar on the left. This gives us a nice 25/75 division for navbar/tabs.
+   */
+   margin-left:25vw !important;
+}
+
+/* Get rid of the tab focus line */
+.tab-line { display: none !important; }
