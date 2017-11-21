@@ -1,0 +1,5 @@
+[
+	{ "keys": ["ctrl+e"], "command": "sublimelinter_show_all_errors" },
+	{ "keys": ["ctrl+v"], "command": "paste_and_indent" },
+	{ "keys": ["ctrl+shift+v"], "command": "paste" }
+]
