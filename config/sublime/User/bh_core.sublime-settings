@@ -1,0 +1,13 @@
+{
+	"content_highlight_bar": true,
+	"bracket_styles": {
+
+	    "default": {
+	        "icon": "bookmark",
+	        // BH1's original default color for reference
+	        // "color": "entity.name.class",
+	        "color": "personal.themecolor",
+	        "style": "underline"
+	    }
+	}
+}

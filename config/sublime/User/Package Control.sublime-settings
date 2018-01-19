@@ -1,0 +1,24 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"ColorSchemeEditor",
+		"Darkula Color Scheme",
+		"JsFormat",
+		"JSON Reindent",
+		"Package Control",
+		"PackageResourceViewer",
+		"PHP-Twig",
+		"SFTP",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-php",
+		"Theme - amCoder",
+		"TodoReview",
+		"Zeal"
+	]
+}
