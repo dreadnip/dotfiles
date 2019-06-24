@@ -157,16 +157,11 @@ bindsym $mod+shift+x exec i3lock
 
 # startup
 exec_always --no-startup-id feh --bg-scale /home/sander/Dropbox/Public/wallpaper_yamaha.png
-exec_always --no-startup-id compton -b --config ~/.compton.conf
+#exec_always --no-startup-id compton -b --config ~/.compton.conf
 exec_always --no-startup-id nm-applet
 exec_always --no-startup-id redshift-gtk
 exec_always --no-startup-id ~/.dropbox-dist/dropboxd
-#exec_always --no-startup-id i3-sensible-terminal -e cmus
-
-for_window [class="Xfce4-notes"] floating enable
-for_window [class="Dgmap.py"] floating enable
-for_window [class="Hearthstone.exe"] floating enable
-for_window [class="Wine"] floating enable
+exec_always --no-startup-id xrandr --output HDMI-0 --auto --output DVI-I-1 --auto --left-of HDMI-0
 
 # window colors
 #                       border              background         text                 indicator
